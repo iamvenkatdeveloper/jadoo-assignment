@@ -1,0 +1,735 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+#Hero .navbar {
+    background-color: transparent !important;
+    margin-top: 2rem;
+}
+
+#Hero .nav-link {
+    color: black;
+}
+
+#Hero .tagline {
+    color: #DF6951;
+    margin-top: 10%;
+    font-weight: 700;
+    font-size: large;
+}
+
+#Hero .btn-warning {
+    background-color: #F1A501 !important;
+}
+
+#Hero .content-btn {
+    font-size: 15px;
+    position: relative;
+    top: -3px;
+}
+
+#Hero .play-btn {
+    border-radius: 60% !important;
+    margin-left: 5% !important;
+    line-height: 28px;
+}
+
+#Hero .content-action {
+    display: ruby
+}
+
+#Hero .play-content {
+    position: relative !important;
+    top: 3px !important;
+}
+
+#Hero .ImgDecore {
+    position: relative !important;
+    z-index: -1;
+    left: 220px;
+    top: -15px;
+}
+
+#Hero .heading {
+    font-family: 'Volkhov' !important;
+    font-style: normal;
+    font-weight: 700;
+    color: #181E4B;
+    font-size: 5rem;
+    line-height: 30px;
+}
+
+
+#Hero .Decore {
+    position: absolute;
+    z-index: -1;
+    right: 0%;
+    top: 0%;
+    height: 80%;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+#Services {
+    padding-top: 5% !important;
+    background-image: url('./assets/Group 4.png');
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 15%;
+}
+
+#Services .category {
+    color: #84829A;
+    font-weight: 700;
+
+}
+
+#Services .title {
+    font-family: 'Volkhov' !important;
+    font-style: normal;
+    font-weight: 700;
+    color: #181E4B;
+    font-size: 3rem;
+    line-height: 30px;
+}
+
+#Services .card {
+    border: none;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+    height: 280px;
+    width: 250px;
+    border-radius: 30px;
+    margin-left: 10%;
+}
+
+#Services .card:hover {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+#Services .BackgroundImg:hover {
+    background-image: url('./assets/Rectangle\ 157.png');
+    background-repeat: no-repeat;
+    background-position-y: 220px;
+    background-position-x: 0px;
+}
+
+#Services .row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Services .BackgroundTopImg {
+    position: relative;
+    top: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+#Services .card-title {
+    font-weight: 600;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+#Destinations {
+    padding-top: 5% !important;
+}
+
+#Destinations .category {
+    color: #84829A;
+    font-weight: 700;
+}
+
+#Destinations .title {
+    font-family: 'Volkhov' !important;
+    font-style: normal;
+    font-weight: 700;
+    color: #181E4B;
+    font-size: 3rem;
+    line-height: 30px;
+}
+
+#Destinations .card {
+    border: none;
+    width: 22rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+}
+
+#Destinations .row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Destinations .card-img-top {
+    margin-top: -5px;
+}
+
+
+#Destinations .card-title {
+    font-weight: 600;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+#DestinationSecond {
+    padding-top: 5% !important;
+}
+
+#DestinationSecond .category {
+    color: #84829A;
+    font-weight: 700;
+}
+
+#DestinationSecond .title {
+    font-family: 'Volkhov' !important;
+    font-style: normal;
+    font-weight: 700;
+    color: #181E4B;
+    font-size: 3rem;
+    line-height: 15px;
+}
+
+#DestinationSecond .content-action {
+    display: ruby
+}
+
+#DestinationSecond #category1 {
+    position: relative;
+    top: -10%;
+}
+
+#DestinationSecond #category2 {
+    position: relative;
+    top: 7%;
+    left: -16%;
+    line-height: 18px
+}
+
+#DestinationSecond #category3 {
+    position: relative;
+    top: 7%;
+    left: -35%;
+    line-height: 18px
+}
+
+#DestinationSecond .DestinationSecondImg {
+    position: relative;
+    top: -150px;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+#Testimonials {
+    margin-top: -100px;
+}
+
+#Testimonials .category {
+    color: #84829A;
+    font-weight: 700;
+}
+
+
+#Testimonials .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+#Testimonials .carousel-style {
+    position: relative;
+    top: 220px;
+    left: -285px
+}
+
+#Testimonials .title {
+    font-family: 'Volkhov' !important;
+    font-style: normal;
+    font-weight: 700;
+    color: #181E4B;
+    font-size: 3rem;
+    line-height: 15px;
+}
+
+
+#Testimonials .TestimonialsImg {
+    position: relative;
+    top: -50px;
+}
+
+/* -------------------------------------------------------------------- */
+
+#Logos {
+    margin-top: -50px;
+    margin-bottom: 150px;
+}
+
+#Logos #img1 {
+    padding-right: 50px;
+    height: 100px;
+}
+
+
+#Logos #img2 {
+    padding-top: -10px;
+    padding-right: 50px;
+    height: 100px;
+}
+
+#Logos #img3 {
+    margin-top: 5px !important;
+    padding-right: 50px;
+    height: 100px;
+}
+
+#Logos #img4 {
+    margin-top: 37px !important;
+    padding-right: 50px;
+    height: 30px;
+}
+
+#Logos #img5 {
+    margin-top: 37px !important;
+    height: 25px;
+}
+
+/* --------------------------------------------------------------------------- */
+
+#Subscribe .card {
+    height: 400px;
+    background-color: #DFD7F9;
+    border: none;
+    border-radius: 25px;
+    border-top-left-radius: 150px;
+}
+
+#Subscribe .subscriber-content {
+    text-align: center;
+    padding-top: 80px;
+    color: #5E6282;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+#Subscribe .btn-warning {
+    background-color: #FF946D !important;
+}
+
+
+#Subscribe .content-btn {
+    font-size: 15px;
+    position: relative;
+    top: -3px;
+    border: none !important;
+    color: white;
+    left: 4%;
+}
+
+#Subscribe input::placeholder {
+    font-size: 14px;
+}
+
+#Subscribe input {
+    padding-left: 50px;
+}
+
+#Subscribe .emailBackground {
+    position: absolute;
+    bottom: 130px;
+    left: 35%;
+}
+
+#Subscribe .content-action {
+    padding-top: 50px;
+}
+
+#Subscribe .img {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+#Footer {
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+
+#Footer .footer-jadoo {
+    font-size: 46px;
+    font-weight: 600;
+    color: #181E4B;
+}
+
+#Footer .footer-title {
+    font-weight: 700;
+    font-size: larger;
+}
+
+#Footer a {
+    text-decoration: none;
+    font-size: large;
+    color: #181E4B;
+    line-height: 30px;
+}
+
+#Footer .cc {
+    padding-top: 100px;
+}
+
+#Footer .discover {
+    margin-top: 5%;
+    margin-left: 10%;
+    font-weight: 600;
+    font-size: large;
+    color: #181E4B;
+
+}
+
+
+
+/* ============================= Responsive CSS =================================== */
+
+@media (max-width: 575.98px) {
+    #Hero .navbar {
+        background-color: transparent !important;
+        margin-top: 0px;
+    }
+
+    #Hero .tagline {
+        color: #DF6951;
+        margin-top: 3%;
+        font-weight: 700;
+        font-size: small;
+    }
+
+    #Hero .heading {
+        font-family: 'Volkhov' !important;
+        font-style: normal;
+        font-weight: 700;
+        color: #181E4B;
+        font-size: 2.5rem;
+        line-height: 0px;
+    }
+
+    #Hero .ImgDecore {
+        position: relative !important;
+        z-index: -1;
+        left: 120px;
+        top: -15px;
+        width: 180px;
+    }
+
+    #Hero p {
+        lighting-color: 0px;
+        font-size: small;
+    }
+
+    .Decore {
+        position: absolute;
+        z-index: -1;
+        right: 0%;
+        top: 0%;
+        height: 30%;
+    }
+
+    #Hero .content-action {
+        display: ruby;
+        padding-left: 7%;
+    }
+
+    #Hero .btn-warning {
+        background-color: #F1A501 !important;
+    }
+
+    #Hero .play-btn {
+        border-radius: 60% !important;
+        margin-left: 5% !important;
+        line-height: 28px;
+    }
+
+    #Hero .play-content {
+        position: relative !important;
+        top: 3px !important;
+    }
+
+    #Hero .content-btn {
+        font-size: 15px;
+        position: relative;
+        top: -3px;
+    }
+
+    #Hero .img-fluid {
+        margin-top: 10%;
+    }
+
+    /* ------------------------------------------------------------------------------------------- */
+    #Services {
+        padding-top: 5% !important;
+        background-image: url('./assets/Group 4.png');
+        background-repeat: no-repeat;
+        background-position-x: 90%;
+        background-position-y: 0%;
+    }
+
+    #Services .category {
+        color: #84829A;
+        font-weight: 700;
+        font-size: small;
+    }
+
+    #Services .title {
+        font-family: 'Volkhov' !important;
+        font-style: normal;
+        font-weight: 700;
+        color: #181E4B;
+        font-size: 1.5rem;
+    }
+
+    #Services .card {
+        border: none;
+        margin-top: -10%;
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: 18%;
+    }
+
+    #Services .BackgroundTopImg {
+        position: relative;
+        top: 100px;
+        height: 200px;
+        width: 200px;
+    }
+
+    #Services .card-title {
+        font-weight: 600;
+    }
+
+    /* ---------------------------------------------------------------------------------------- */
+
+
+    #Destinations {
+        padding-top: 0% !important;
+    }
+
+    #Destinations .category {
+        color: #84829A;
+        font-weight: 700;
+    }
+
+    #Destinations .title {
+        font-family: 'Volkhov' !important;
+        font-style: normal;
+        font-weight: 700;
+        color: #181E4B;
+        font-size: 1.5rem;
+        margin-bottom: -5%;
+    }
+
+    #Destinations .card {
+        border: none;
+        width: 20rem;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+        border-radius: 30px;
+        margin-bottom: 10%;
+        margin-left: auto;
+        margin-right: 5%;
+    }
+
+    #Destinations .card-img-top {
+        margin-top: -5px;
+    }
+
+
+    #Destinations .card-title {
+        font-weight: 600;
+    }
+
+    /* ------------------------------------------------------------------------ */
+
+
+    #DestinationSecond {
+        padding-top: 5% !important;
+    }
+
+    #DestinationSecond .category {
+        color: #84829A;
+        font-weight: 700;
+    }
+
+    #DestinationSecond .title {
+        font-family: 'Volkhov' !important;
+        font-style: normal;
+        font-weight: 700;
+        color: #181E4B;
+        font-size: 1.5rem;
+    }
+
+    #DestinationSecond .DestinationSecondImg {
+        top: -10%;
+        left: 0%;
+        height: 500px;
+    }
+
+    /* ---------------------------------------------------------- */
+
+    #Testimonials {
+        margin-top: 0px;
+    }
+
+    #Testimonials .category {
+        color: #84829A;
+        font-weight: 700;
+    }
+
+
+    #Testimonials .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+    }
+
+    #Testimonials .carousel-style {
+        position: relative;
+        top: 430px;
+        left: 0px
+    }
+
+    #Testimonials .title {
+        font-family: 'Volkhov' !important;
+        font-style: normal;
+        font-weight: 700;
+        color: #181E4B;
+        font-size: 1.5rem;
+    }
+
+
+    #Testimonials .TestimonialsImg {
+        position: relative;
+        top: 50px;
+        height: 300px;
+    }
+
+    /* ---------------------------------------------------------------------- */
+
+
+    #Logos {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    #Logos #img1 {
+        padding-right: 0px;
+        height: 70px;
+        margin-left: -10px !important;
+    }
+
+    #Logos #img2 {
+        padding-top: -10px;
+        padding-right: 0px;
+        height: 70px;
+        margin-left: -10px;
+    }
+
+    #Logos #img3 {
+        margin-top: 3px !important;
+        padding-right: 0px;
+        height: 70px;
+        margin-left: -5px;
+    }
+
+    #Logos #img4 {
+        margin-top: 30px !important;
+        padding-right: 0px;
+        height: 15px;
+    }
+
+    #Logos #img5 {
+        margin-top: 30px !important;
+        height: 15px;
+    }
+
+
+    /* ------------------------------------------------------------------------------- */
+
+
+    #Subscribe .card {
+        height: 300px;
+        background-color: #DFD7F9;
+        border: none;
+        border-radius: 25px;
+        border-top-left-radius: 150px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #Subscribe .subscriber-content {
+        text-align: center;
+        padding-top: 110px;
+        color: #5E6282;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+
+    #Subscribe .btn-warning {
+        background-color: #FF946D !important;
+    }
+
+
+    #Subscribe .content-btn {
+        font-size: 15px;
+        position: relative;
+        top: -3px;
+        border: none !important;
+        color: white;
+        left: 4%;
+    }
+
+    #Subscribe input::placeholder {
+        font-size: 14px;
+    }
+
+    #Subscribe input {
+        padding-left: 50px;
+    }
+
+    #Subscribe .emailBackground {
+        position: absolute;
+        bottom: 14%;
+        left: 6%;
+    }
+
+    #Subscribe .content-action {
+        padding-top: 50px;
+    }
+
+    #Subscribe .img {
+        position: absolute;
+        top: -25px;
+        right: -25px;
+    }
+
+    /* --------------------------------------------------------------------- */
+
+    #Footer .lastContent {
+        padding-top: 30px;
+        margin-left: 20%;
+    }
+
+    #Footer .cc {
+        padding-top: 40px;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+
+}
